@@ -19,6 +19,11 @@ export default {
 <style>
   :root {
     --amarillo-meli: #FFF159;
+    --verde-descuento: #00a650;
+  }
+
+  .verde {
+    color: var(--verde-descuento);
   }
 
  * {
