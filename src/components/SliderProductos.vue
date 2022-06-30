@@ -77,7 +77,10 @@
 export default {
     name: 'SliderProductos',
     props: {
-        title: String,
+        title: {
+            type: String,
+            required: true,
+        },
     }
 }
 </script>
@@ -115,5 +118,6 @@ export default {
         height: 330px;
         width: 224px;
         overflow: hidden;
+        cursor: pointer;
     }
 </style>

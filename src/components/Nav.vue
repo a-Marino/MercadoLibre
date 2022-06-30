@@ -2,6 +2,7 @@
     <nav class="flex flex-col">
         <!-- Nav primario -->
         <div class="flex flex-row justify-around items-center py-2">
+            <!-- Logo -->
             <a href="/" class="nav-logo"></a>
             <!-- Searchbar -->
             <input type="text" name="search" id="search" class="search-bar" placeholder="Buscar productos, marcas y mas..." autocomplete="off">

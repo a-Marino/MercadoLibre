@@ -26,6 +26,10 @@ export default {
     color: var(--verde-descuento);
   }
 
+  .bg-verde {
+    background: var(--verde-descuento);
+  }
+
  * {
     box-sizing: border-box;
     margin: 0;
